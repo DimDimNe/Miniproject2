@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #696969; 
+}
+a:hover{
+    color: aqua;
+}
+p{
+    font-size: 18px;
+}
+.container  {
+    width: 1700px;
+    margin: auto;
+}
+
+/* menu */
+.menu{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu img{
+    width: 150px;
+    height: 150px;
+    margin: 0px 15px -80px;
+}
+.menu img:hover{
+    opacity: 0;
+}
+
+/* slice */
+.slice{
+    margin-top: 30px;
+    position: relative;
+}
+.slice .left{
+    width: 400px;
+    position: absolute;
+    left: 75px;
+    top: 210px;
+}
+.slice .left h2{
+    font-size: 80px;
+  color: orangered;
+}
+.left p{
+    margin-top: 20px;
+}
+.btn {
+    padding: 15px 55px;
+    background-color: orangered;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: gray;
+}
+.slice .right{
+    position: absolute;
+    bottom: 90px;
+    right: 150px;
+}
+.hidden{
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    margin-right: 50px;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+.hidden:hover{
+    color: orangered;
+}
+/* banner */
+.banner{
+    margin-top: 20px;
+}
+.bannerLeft{
+    width: 780px;
+    height: 900px;
+    margin-right: 20px;
+    float: left;
+    background-image: url('../img/port-1-img-7.jpg');
+    background-size: cover;
+    position: relative;
+}
+.bannerRight{
+    width: 900px;
+    height: 910px;
+    float: left;
+    background-image: url('../img/port-1-img-3.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.textL{
+    position: absolute;
+    left: 40px;
+    bottom: 710px;
+    font-size: 50px ;
+    color: orangered;
+}
+.view1{
+    position: absolute;
+    bottom: 678px;
+    left: 40px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: orangered;
+}
+.textR{
+    position: absolute;
+    left: 50px;
+    bottom: 150px;
+    font-size: 50px ;
+    color: orangered;
+}
+.view2{
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: orangered;
+}
+
+/* content */
+#title{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.sp, .ten, .gia, .mua{
+    width: 410px;
+    margin-left: 20px;
+    float: left;
+   
+}
+.sp:first-child, .ten:first-child, .gia:first-child, .mua:first-child{
+    margin-left: 0;
+}
+.sp {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.sp img{
+    -webkit-transform: scale(1.0);
+       -moz-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+         -o-transform: scale(1.0);
+            transform: scale(1.0);
+}
+.sp img:hover{
+    -webkit-transform: scale(1.5);
+       -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+         -o-transform: scale(1.5);
+            transform: scale(1.5);
+}
+.ten p{
+    color: orangered;
+    text-align: center;
+    margin-bottom: 10px;
+}  
+.gia{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua;
+    margin-bottom: 20px;
+}
+.gia span{
+    font-size: 29px;
+}
+
+.mua{
+    text-align: center;
+}
+/* Banner 2 */
+#banner1{
+    padding: 10px;
+    margin-right: 20px;
+    float: left;
+    position: relative;    
+
+}
+.view3 {
+    position: absolute;
+    left: 40px;
+    bottom: 75px;
+    font-size: 60px;
+    color: orangered;
+}
+.view4 {
+    position: absolute;
+    left: 740px;
+    bottom: 500px;
+    font-size: 60px;
+    color: orangered;
+}
+.view5 {
+    position: absolute;
+    left: 1450px;
+    bottom: 50px;
+    font-size: 60px;
+    color: orangered;
+}
+
+/* footer */
+.about{
+    width: 400px;
+    float: left;
+
+}
+.about #trai{
+    width: 100px;
+    height: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.about #phai{
+    font-size: 19px;
+    width: 150px;
+    padding: 10px;
+    float: left;
+}
+.contact{
+    font-size: 19px;
+    width: 300px;
+    float: left;
+
+}
+.contact p{
+    padding: 2px;
+}
+
+.link {
+    font-size: 19px;
+    padding: 31px;
+    width: 300px;
+    float: left;
+
+}
